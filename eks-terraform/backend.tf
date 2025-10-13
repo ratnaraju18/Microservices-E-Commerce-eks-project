@@ -7,7 +7,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "manojdev-2"
+    bucket = "manojspdev-12"
     key    = "k8/terraform.tfstate"
     region = "us-east-1"
   }
