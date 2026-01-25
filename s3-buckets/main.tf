@@ -19,10 +19,10 @@ resource "aws_s3_bucket_versioning" "bucket1_versioning" {
 }
 
 resource "aws_s3_bucket" "bucket2" {
-  bucket = "arumullaaluruu1"
+  bucket = "rajuprod"
 
   tags = {
-    Name        = "arumullaaluruu1"
+    Name        = "rajuprod"
     Environment = "dev"
   }
 }
