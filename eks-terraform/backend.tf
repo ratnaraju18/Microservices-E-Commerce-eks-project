@@ -7,9 +7,9 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "raju1dev"
+    bucket = "rajumercy1"
     key    = "k8/terraform.tfstate"
-    region = "us-east-1"
+    region = "ap-south-2"
   }
 
   required_version = ">= 1.6.3"
