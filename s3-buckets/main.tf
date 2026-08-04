@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "bucket1" {
-  bucket = "rajudev"
+  bucket = "rajudev1"
 
   tags = {
     Name        = "devbucket-2"
@@ -19,7 +19,7 @@ resource "aws_s3_bucket_versioning" "bucket1_versioning" {
 }
 
 resource "aws_s3_bucket" "bucket2" {
-  bucket = "rajuprod"
+  bucket = "rajuprod1"
 
   tags = {
     Name        = "rajuprod"
